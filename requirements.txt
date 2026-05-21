@@ -1,0 +1,21 @@
+# AI Virtual Mouse — Python Dependencies
+# Install with:  pip install -r requirements.txt
+
+# Core vision & hand tracking
+opencv-python>=4.8.0
+mediapipe==0.10.14
+
+# Mouse / keyboard automation
+pyautogui>=0.9.54
+
+# Numerical computing
+numpy>=1.24.0
+
+# Windows volume control
+pycaw>=20230410
+comtypes>=1.2.0
+
+# Screen info (used by pyautogui internally)
+Pillow>=10.0.0
+
+# macOS / Linux volume control uses subprocess (no extra package needed)
